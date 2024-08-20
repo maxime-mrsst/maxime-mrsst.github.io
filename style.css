@@ -4,6 +4,9 @@
     padding: 0;
     overflow: hidden;
     background-color: darkmagenta;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
   
 .navbar li {
