@@ -6,23 +6,26 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+    width: 100%;
 }
   
 .navbar li {
-  float: left;
+    float: left;
 }
 
 .navbar a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
+    display: block;
+    padding: 8px;
+    color: white;
 }
 
 
 /* Change the link color on hover */
 .navbar li a:hover {
-    background-color: #555;
-    color: white;
+    background-color: cyan;
+    color: black;
+}
+
+.active {
+    background-color: cyan;
 }
